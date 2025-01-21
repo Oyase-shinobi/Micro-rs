@@ -12,7 +12,7 @@ use tower_http::cors::CorsLayer;
 
 mod error;
 mod object;
-
+mod store;
 
 #[derive(Deserialize, Debug)]
 struct GetObjectReq {
