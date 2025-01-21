@@ -15,7 +15,7 @@ prost = "0.10.1"
 serde = { version = "1.0.160", features = ["derive"] }
 tokio = { version = "1.18.0", features = ["full"] }
 tonic = "0.7.1"
-tonic-reflection = "0.4.0"
+tonic-reflection = "0.12.3"
 
 
 [build-dependencies]
